@@ -1,0 +1,1661 @@
+{
+    "servers": {
+        "中国移动香港二号机": {
+            "sshPort": "22",
+            "httpsPort": "444",
+            "domain": "cmi-v2.minasan.xyz",
+            "webRoot": "/data/html/"
+        },
+        "中国移动香港一号机": {
+            "sshPort": "22",
+            "domain": "cmi.minasan.xyz",
+            "webRoot": "/data/html/"
+        },
+        "中国优化负载均衡线路": {
+            "push": "false",
+            "userName": "",
+            "sshPort": "",
+            "domain": "load-balance.minasan.xyz",
+            "webRoot": ""
+        },
+        "广州移动": {
+            "sshPort": "52485",
+            "httpsPort": "333",
+            "domain": "gzcm-v2.minasan.xyz",
+            "webRoot": "/data/html/"
+        },
+        "扬州电信": {
+            "hidden": "true",
+            "sshPort": "65522",
+            "domain": "yz.minasan.xyz",
+            "webRoot": "/data/html/"
+        },
+        "宿迁BGP": {
+            "hidden": "true",
+            "sshPort": "22",
+            "domain": "222.187.238.78",
+            "webRoot": "/storage/html/"
+        },
+        "东京IIJ三号机": {
+            "sshPort": "22",
+            "domain": "iij-v3.minasan.xyz",
+            "webRoot": "/data/html/"
+        },
+        "东京IIJ五号机": {
+            "hidden": "true",
+            "sshPort": "65522",
+            "domain": "iij-v5.minasan.xyz",
+            "webRoot": "/data/html/"
+        },
+        "洛杉矶Cera AS4837": {
+            "sshPort": "22",
+            "domain": "as4837.yiqijin.icu",
+            "webRoot": "/data/html/"
+        },
+        "洛杉矶AS4837二号机": {
+            "hidden": "true",
+            "sshPort": "65522",
+            "domain": "as4837-v2.minasan.xyz",
+            "webRoot": "/data/html/"
+        }
+    },
+    "pinned": [],
+    "packages": {
+        "Arcaea": {
+            "国行C版": {
+                "forceHighApi": false,
+                "suffix": "apk",
+                "packageName": "moe.low.arc",
+                "version": 0,
+                "versionString": "5.3.1c",
+                "obb": [],
+                "allocatedServer": [
+                    "广州移动"
+                ],
+                "source": "arc",
+                "url": ""
+            },
+            "Google Play": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "moe.low.arc",
+                "version": 1170104,
+                "versionString": "5.3.1",
+                "obb": {},
+                "allocatedServer": [
+                    "广州移动"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "Anoawa": {
+            "": {
+                "manualMode": true,
+                "suffix": "apk",
+                "packageName": "Anoawa",
+                "version": 0,
+                "versionString": "0.4.0",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "none",
+                "url": ""
+            }
+        },
+        "BanG Dream! Girls Band Party!": {
+            "日服": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "jp.co.craftegg.band",
+                "version": 188,
+                "versionString": "7.6.6",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            },
+            "国际服": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "com.bushiroad.en.bangdreamgbp",
+                "version": 97,
+                "versionString": "7.0.0",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            },
+            "韩服": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "com.kakaogames.bangdreamkr",
+                "version": 292,
+                "versionString": "6.5.2",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            },
+            "中国台湾服": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "net.gamon.bdTW",
+                "version": 124,
+                "versionString": "7.3.0",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "BanG Dream! It's MyGO!!!!!": {
+            "configs": {
+                "aprilFools": true,
+                "comments": "还在go还在go还在go"
+            },
+            "Bilibili - MyGO_AveMujica": {
+                "urlForceOverride": {
+                    "「BanG Dream! It's MyGO!!!!!」＃1": "https://www.bilibili.com/video/BV1Zu4y1B7DU/"
+                }
+            }
+        },
+        "Beatmania IIDX Ultimate Mobile": {
+            "Google Play": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "jp.konami.bm2dxum",
+                "version": 79,
+                "versionString": "1.24.0",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "Beatoraja": {
+            "Windows 64位 JRE同捆": {
+                "forceHighApi": "false",
+                "manualMode": true,
+                "suffix": "zip",
+                "packageName": "beatoraja-jre-win64",
+                "version": 0,
+                "versionString": "0.8.6",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "",
+                "url": ""
+            }
+        },
+        "Berry Melody": {
+            "Google Play": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "com.SkyWayStudio.BerryMelody",
+                "version": 12,
+                "versionString": "2.1.5",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "Blue Archive": {
+            "日服": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "com.YostarJP.BlueArchive",
+                "version": 259750,
+                "versionString": "1.40.259750",
+                "obb": {
+                    "main": "com.YostarJP.BlueArchive/main.259750.com.YostarJP.BlueArchive.obb"
+                },
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            },
+            "国际服": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "com.nexon.bluearchive",
+                "version": 260228,
+                "versionString": "1.60.260228",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "Calice": {
+            "Google Play": {
+                "suffix": "apk",
+                "packageName": "com.Ra8bit.Calice",
+                "version": 16,
+                "versionString": "1.0.4",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "ChainBeeT": {
+            "Google Play": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "jp.matsu4512.chainbeet",
+                "version": 251,
+                "versionString": "4.14.1",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "Cytoid": {
+            "Google Play": {
+                "suffix": "apk",
+                "packageName": "me.tigerhix.cytoid",
+                "version": 200107,
+                "versionString": "2.1.1",
+                "obb": {
+                    "main": "me.tigerhix.cytoid/main.200107.me.tigerhix.cytoid.obb"
+                },
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "Cytus": {
+            "Google Play": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "com.rayark.Cytus.full",
+                "version": 1005230,
+                "versionString": "10.1.5",
+                "obb": {
+                    "main": "com.rayark.Cytus.full/main.1005230.com.rayark.Cytus.full.obb"
+                },
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "DanceRail3": {
+            "Google Play": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "com.dancerail3.soragame",
+                "version": 171,
+                "versionString": "1.71",
+                "obb": {
+                    "main": "com.dancerail3.soragame/main.171.com.dancerail3.soragame.obb"
+                },
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "Deemo": {
+            "Google Play": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "com.rayark.pluto",
+                "version": 1013170,
+                "versionString": "5.0.6",
+                "obb": {
+                    "main": "com.rayark.pluto/main.1013170.com.rayark.pluto.obb",
+                    "patch": "com.rayark.pluto/patch.1013170.com.rayark.pluto.obb"
+                },
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "Deemo II": {
+            "Google Play": {
+                "forceHighApi": "true",
+                "suffix": "apk",
+                "packageName": "com.rayark.deemo2",
+                "version": 63061610,
+                "versionString": "4.0.2",
+                "obb": {
+                    "main": "com.rayark.deemo2/main.63061610.com.rayark.deemo2.obb",
+                    "patch": "com.rayark.deemo2/patch.63061610.com.rayark.deemo2.obb"
+                },
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "Dynamix": {
+            "Google Play": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "com.c4cat.dynamix",
+                "version": 318000,
+                "versionString": "3.18.00",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "D4DJ Groovy Mix": {
+            "日服": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "com.bushiroad.d4dj",
+                "version": 179,
+                "versionString": "5.8.0",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            },
+            "国际服": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "com.bushiroad.en.d4dj",
+                "version": 106,
+                "versionString": "5.6.00",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            },
+            "中国台湾服": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "net.gamon.djTW",
+                "version": 52,
+                "versionString": "4.6.4",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "Full of Music 1": {
+            "Google Play": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "net.handicrafter.games.fom1",
+                "version": 70,
+                "versionString": "1.9.5",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "Gadvia": {
+            "Google Play": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "com.hgca.uma",
+                "version": 85,
+                "versionString": "1.6.1.1",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "Groove Coaster 2": {
+            "Google Play": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "jp.co.taito.groovecoasterzero",
+                "version": 76,
+                "versionString": "1.0.18",
+                "obb": {
+                    "main": "jp.co.taito.groovecoasterzero/main.76.jp.co.taito.groovecoasterzero.obb"
+                },
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "Heaven Burns Red": {
+            "Google Play": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "com.heavenburnsred",
+                "version": 3044,
+                "versionString": "3.13.0",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "Hexa Hysteria": {
+            "Google Play": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "com.WiseyeStudio.HexaHysteria",
+                "version": 17301507,
+                "versionString": "1.8.0.3",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "Jubeat": {
+            "Google Play": {
+                "suffix": "apk",
+                "packageName": "com.konami.android.jubeat",
+                "version": 64,
+                "versionString": "4.4.2",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "Kalpa": {
+            "Google Play": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "com.quesera.kalpa",
+                "version": 30004,
+                "versionString": "3.0.04",
+                "obb": {
+                    "main": "com.quesera.kalpa/main.30004.com.quesera.kalpa.obb"
+                },
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "Lanota": {
+            "Google Play": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "com.Noxygames.Lanota",
+                "version": 227009898,
+                "versionString": "2.27.0",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "Lethe": {
+            "Google Play": {
+                "manualMode": true,
+                "versionString": "1.7.9",
+                "packageName": "com.cyou.mrd.letheob.gp",
+                "obb": {
+                    "main": "com.cyou.mrd.letheob.gp/main.178.com.cyou.mrd.letheob.gp.obb",
+                    "patch": "com.cyou.mrd.letheob.gp/patch.179.com.cyou.mrd.letheob.gp.obb"
+                },
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ]
+            }
+        },
+        "Liminality": {
+            "Google Play": {
+                "forceHighApi": "true",
+                "suffix": "apk",
+                "packageName": "com.ProjectZero.Liminality",
+                "version": 67,
+                "versionString": "2.11.0",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "Love Live! SIF2": {
+            "Google Play 日服": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "com.bushiroad.lovelive.schoolidolfestival2",
+                "version": 4719,
+                "versionString": "1.10.1",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "Malody": {
+            "Android Google Play": {
+                "suffix": "apk",
+                "packageName": "me.mugzone.malody",
+                "version": 202,
+                "versionString": "4.3.7",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            },
+            "Windows": {
+                "suffix": "7z",
+                "manualMode": true,
+                "versionString": "4.3.7",
+                "packageName": "malody_windows",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ]
+            }
+        },
+        "Milthm": {
+            "Google Play": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "com.morizero.milthm",
+                "version": 24013001,
+                "versionString": "1.5.5",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "Noah's Bottle": {
+            "Google Play": {
+                "suffix": "apk",
+                "packageName": "com.wen.NoahBottle",
+                "version": 115,
+                "versionString": "2.53",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "NOISZ STARLIVHT": {
+            "Google Play": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "com.AnarchEntertainment.NOISZSTARLIVHT",
+                "version": 30251,
+                "versionString": "3.025",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "Orzmic": {
+            "国际版": {
+                "suffix": "apk",
+                "manualMode": true,
+                "packageName": "com.BigTrue.Orzmic-International",
+                "versionString": "3.0.3",
+                "obb": {},
+                "allocatedServer": [
+                    "广州移动"
+                ]
+            },
+            "Google Play": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "com.BigTrue.Orzmic",
+                "version": 64,
+                "versionString": "2.22.17",
+                "obb": {
+                    "main": "com.BigTrue.Orzmic/main.64.com.BigTrue.Orzmic.obb"
+                },
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "osu!droid": {
+            "GitHub": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "OSU! Droid",
+                "version": 0,
+                "versionString": "v1.7.2-231209-release",
+                "obb": [],
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "pattern": ".apk",
+                "source": "GitHub",
+                "url": "https://api.github.com/repos/osudroid/osu-droid/releases/latest"
+            }
+        },
+        "OSU! Lazer": {
+            "GitHub": {
+                "suffix": "apk",
+                "packageName": "OSU! Lazer",
+                "versionString": "2024.131.0",
+                "obb": [],
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "pattern": ".apk",
+                "source": "GitHub",
+                "url": "https://api.github.com/repos/ppy/osu/releases/latest"
+            }
+        },
+        "OverRapid": {
+            "Google Play": {
+                "suffix": "apk",
+                "packageName": "com.arcstar.overrapid",
+                "version": 1602,
+                "versionString": "1602v35MK3",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "Paradigm: Reboot 范式: 起源": {
+            "Google Play": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "com.tunergames.paradigm",
+                "version": 1125,
+                "versionString": "2.2",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "Phigros": {
+            "Google Play": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "com.PigeonGames.Phigros",
+                "version": 95,
+                "versionString": "3.4.3",
+                "obb": {
+                    "main": "com.PigeonGames.Phigros/main.95.com.PigeonGames.Phigros.obb"
+                },
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            },
+            "2023 愚人节": {
+                "manualMode": true,
+                "packageName": "com.PigeonGames.Phigros",
+                "versionString": "2.5.1",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ]
+            },
+            "2022 愚人节": {
+                "manualMode": true,
+                "packageName": "com.PigeonGames.Phigros",
+                "versionString": "2.1.4",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ]
+            },
+            "2021 愚人节": {
+                "manualMode": true,
+                "packageName": "com.PigeonGames.Phigros",
+                "versionString": "1.6.5",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ]
+            },
+            "2020 愚人节": {
+                "manualMode": true,
+                "packageName": "com.PigeonGames.Phigros",
+                "versionString": "1.4.1",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ]
+            },
+            "可以无限刷MB的版本": {
+                "manualMode": true,
+                "packageName": "com.PigeonGames.Phigros",
+                "versionString": "1.4.3",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ]
+            },
+            "初版": {
+                "manualMode": true,
+                "packageName": "com.PigeonGames.Phigros",
+                "versionString": "1.0.0",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ]
+            }
+        },
+        "Phigros: Glaciaxion World": {
+            "Android": {
+                "manualMode": true,
+                "packageName": "PhigrosGlaciaxionWorld",
+                "versionString": "0.1.0",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ]
+            },
+            "Windows": {
+                "suffix": "zip",
+                "manualMode": true,
+                "packageName": "PhigrosGlaciaxionWorld-Windows",
+                "versionString": "0.1.0",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ]
+            }
+        },
+        "Phira": {
+            "GitHub": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "Phira",
+                "version": 0,
+                "versionString": "v0.6.1",
+                "obb": [],
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GitHub",
+                "url": "https://api.github.com/repos/TeamFlos/phira/releases/latest"
+            }
+        },
+        "Pianista": {
+            "Google Play": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "com.superb.pianista",
+                "version": 156,
+                "versionString": "2.4.4",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "Polytone": {
+            "Google Play": {
+                "suffix": "apk",
+                "packageName": "co.impactstd.K4",
+                "version": 1000850,
+                "versionString": "1.13",
+                "obb": {
+                    "main": "co.impactstd.K4/main.1000850.co.impactstd.K4.obb",
+                    "patch": "co.impactstd.K4/patch.1000850.co.impactstd.K4.obb"
+                },
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "Project Sekai": {
+            "日服": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "com.sega.pjsekai",
+                "version": 300020,
+                "versionString": "3.3.1",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            },
+            "亚服[繁体中文]": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "com.hermes.mk.asia",
+                "version": 12493,
+                "versionString": "2.6.1",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            },
+            "韩服": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "com.pjsekai.kr",
+                "version": 12548,
+                "versionString": "2.6.1",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            },
+            "国际服": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "com.sega.ColorfulStage.en",
+                "version": 40,
+                "versionString": "2.4.5",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "Protocol:hyperspace Diver": {
+            "Google Play": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "com.NextFloor.phdiver",
+                "version": 6420002,
+                "versionString": "2.0.2",
+                "obb": {
+                    "main": "com.NextFloor.phdiver/main.6420001.com.NextFloor.phdiver.obb"
+                },
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "RAVON": {
+            "Google Play": {
+                "suffix": "apk",
+                "packageName": "com.synthnova.ravon",
+                "version": 204,
+                "versionString": "2.6.0",
+                "obb": {
+                    "main": "com.synthnova.ravon/main.204.com.synthnova.ravon.obb"
+                },
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "REPhityOS": {
+            "GitHub Android": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "REPhityOS",
+                "version": 0,
+                "versionString": "1.27",
+                "obb": [],
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "pattern": ".apk",
+                "source": "GitHub",
+                "url": "https://api.github.com/repos/REPhigrOS-DevTeam/RPTR_Apk/releases/latest"
+            },
+            "GitHub Windows": {
+                "forceHighApi": "false",
+                "suffix": "zip",
+                "packageName": "REPhityOS-Windows",
+                "version": 0,
+                "versionString": "1.27",
+                "obb": [],
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "pattern": "Windows.zip",
+                "source": "GitHub",
+                "url": "https://api.github.com/repos/REPhigrOS-DevTeam/RPTR_Apk/releases/latest"
+            }
+        },
+        "Re:Stage! Prism Step": {
+            "Google Play": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "com.ponycanyon.game.prismstep",
+                "version": 265,
+                "versionString": "1.1.95",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "Rhythm Hive": {
+            "Google Play": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "com.superb.rhv",
+                "version": 126,
+                "versionString": "6.7.0",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "Rizline": {
+            "Google Play 中国港澳台地区服": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "com.leiting.RizlineHk.android",
+                "version": 41,
+                "versionString": "1.0.17",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            },
+            "Google Play 国际服": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "com.PigeonGames.Rizline",
+                "version": 42,
+                "versionString": "1.0.18",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            },
+            "Taptap 国际服": {
+                "manualMode": true,
+                "packageName": "com.PigeonGames.Rizline-Taptap",
+                "versionString": "1.0.18",
+                "obb": {},
+                "allocatedServer": [
+                    "广州移动"
+                ]
+            }
+        },
+        "RYCEAM": {
+            "Taptap 国际服": {
+                "manualMode": true,
+                "versionString": "1.0.8",
+                "packageName": "RYCEAM",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ]
+            }
+        },
+        "Sonolus": {
+            "官网版": {
+                "manualMode": true,
+                "versionString": "0.7.0",
+                "packageName": "Sonolus",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ]
+            }
+        },
+        "SparkLine": {
+            "Google Play": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "com.wizdream.sparkline",
+                "version": 26,
+                "versionString": "1.4.0",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "Stellights": {
+            "Google Play": {
+                "suffix": "apk",
+                "manualMode": true,
+                "versionString": "2.1.8",
+                "packageName": "com.collesta.StellightMusicGame",
+                "obb": {
+                    "main": "com.collesta.StellightMusicGame/main.115.com.collesta.StellightMusicGame.obb"
+                },
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ]
+            }
+        },
+        "Taiko no Tatsujin RHYTHM CONNECT": {
+            "Google Play": {
+                "versionString": "1.7.0",
+                "version": 53,
+                "packageName": "com.linecorp.LGTAIKO",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "suffix": "apk"
+            }
+        },
+        "TAKUMI³": {
+            "Google Play": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "com.thiqxis.takumicubic",
+                "version": 950,
+                "versionString": "5.20.26",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "Tone Sphere": {
+            "官网版": {
+                "suffix": "apk",
+                "manualMode": true,
+                "packageName": "com.bit192labs.tonesphere",
+                "versionString": "1.9.0",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP",
+                    "洛杉矶Cera AS4837"
+                ]
+            }
+        },
+        "Tokimeki Idol": {
+            "Google Play": {
+                "suffix": "apk",
+                "packageName": "jp.konami.tokimekiidol",
+                "version": 3387502,
+                "versionString": "2.0.2",
+                "obb": {
+                    "main": "jp.konami.tokimekiidol/main.3387502.jp.konami.tokimekiidol.obb"
+                },
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "VOEZ": {
+            "Google Play": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "com.rayark.valkyrie",
+                "version": 61671000,
+                "versionString": "2.2.3",
+                "obb": {
+                    "main": "com.rayark.valkyrie/main.61671000.com.rayark.valkyrie.obb"
+                },
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "World Dai Star - Stellarium of Dream": {
+            "Google Play": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "com.kms.worlddaistar",
+                "version": 105,
+                "versionString": "1.16.0",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "xuTry": {
+            "Alpha": {
+                "manualMode": true,
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "xuTry",
+                "versionString": "1.0.7",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "url": ""
+            }
+        },
+        "Zyon载音": {
+            "Google Play": {
+                "manualMode": true,
+                "versionString": "202",
+                "packageName": "com.aquatrax.zyon",
+                "obb": {
+                    "main": "com.aquatrax.zyon/main.202.com.aquatrax.zyon.obb"
+                },
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ]
+            }
+        },
+        "ZArchiver": {
+            "Google Play": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "ru.zdevs.zarchiver",
+                "version": 10925,
+                "versionString": "1.0.9",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        },
+        "Split APKs Installer (SAI)": {
+            "Google Play": {
+                "forceHighApi": "false",
+                "suffix": "apk",
+                "packageName": "com.aefyr.sai",
+                "version": 60,
+                "versionString": "4.5",
+                "obb": {},
+                "allocatedServer": [
+                    "洛杉矶AS4837二号机",
+                    "东京IIJ五号机",
+                    "中国优化负载均衡线路",
+                    "广州移动",
+                    "扬州电信",
+                    "宿迁BGP"
+                ],
+                "source": "GP",
+                "url": ""
+            }
+        }
+    }
+}
