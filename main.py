@@ -13,9 +13,6 @@ api31Server = GooglePlayAPI("ja_JP", "Asia/Tokyo", "rubens")
 
 urlList = {"Files": []}
 
-headers = {'Accept': 'application/vnd.github+json',
-           'Authorization': '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'}
-
 with open("./config.json", "r", encoding="UTF-8") as text:
     config = json.load(text)
     text.close()
